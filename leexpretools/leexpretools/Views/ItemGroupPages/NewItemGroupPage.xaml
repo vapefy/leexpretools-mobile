@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="leexpretools.Views.ItemGroupPages.NewItemGroupPage"
+             Title="{Binding Title}"
+             x:Name="AddItemGroupPage">
+    
+    <ContentPage.Content>
+        <StackLayout Spacing="3" Padding="15">
+            <Label Text="Name" FontSize="Medium" />
+            <Entry Text="{Binding Name, Mode=TwoWay}" FontSize="Medium" />
+            
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Text="Offset" FontSize="Medium" VerticalOptions="Center" VerticalTextAlignment="Center" />
+                <Entry Grid.Row="0" Grid.Column="1" Keyboard="Numeric" Text="{Binding Offset, Mode=TwoWay}" FontSize="Medium" Margin="0" VerticalOptions="Center" VerticalTextAlignment="Center" />
+                <Label Grid.Row="0" Grid.Column="2" Text="Tage" FontSize="Medium" VerticalOptions="Center" VerticalTextAlignment="Center" />
+            
+                <Label Grid.Row="1" Grid.Column="0" Text="Yellow flag" FontSize="Medium" VerticalOptions="Center" VerticalTextAlignment="Center" />
+                <Entry Grid.Row="1" Grid.Column="1" Keyboard="Numeric" Text="{Binding YellowFlag, Mode=TwoWay}" FontSize="Medium" VerticalOptions="Center" VerticalTextAlignment="Center" />
+                <Label Grid.Row="1" Grid.Column="2" Text="Tage" FontSize="Medium" VerticalOptions="Center" VerticalTextAlignment="Center" />
+
+                <Label Grid.Row="2" Grid.Column="0" Text="Red flag" FontSize="Medium" VerticalOptions="Center" VerticalTextAlignment="Center" />
+                <Entry Grid.Row="2" Grid.Column="1" Keyboard="Numeric" Text="{Binding RedFlag, Mode=TwoWay}" FontSize="Medium" Margin="0" VerticalOptions="Center" VerticalTextAlignment="Center" />
+                <Label Grid.Row="2" Grid.Column="2" Text="Tage" FontSize="Medium" VerticalOptions="Center" VerticalTextAlignment="Center" />
+
+            </Grid>
+
+            
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Cancel" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
+                <Button Text="Save" Command="{Binding SaveCommand}" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+

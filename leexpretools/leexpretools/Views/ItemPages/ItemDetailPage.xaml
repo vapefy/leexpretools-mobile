@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="leexpretools.Views.ItemPages.ItemDetailPage"
+             xmlns:model="clr-namespace:leexpretools.Models"
+             xmlns:service="clr-namespace:leexpretools.Services"  
+             Title="{Binding Title}">
+
+    <StackLayout Spacing="2" Padding="15">
+            <Label Text="Name" />
+            <Entry Text="{Binding Name, Mode=TwoWay}"/>
+
+            <Label Text="Beschreibung" />
+            <Editor Text="{Binding Description, Mode=TwoWay}" HeightRequest="50" />
+
+            <Label Text="EAN" />
+            <Entry  Text="{Binding Ean, Mode=TwoWay}"/>
+
+            <Label Text="Preis" />
+            <Entry Text="{Binding Price, Mode=TwoWay}" Keyboard="Numeric" />
+
+            <Label Text="Ladenbereich" />
+            <Picker SelectedItem="{Binding SelectedArea, Mode=TwoWay}" x:Name="areaPicker" Title="Ladenbereich auswählen">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type model:Area}"/>
+                </Picker.ItemsSource>
+                <Picker.ItemDisplayBinding>
+                    <Binding Path="Name" />
+                </Picker.ItemDisplayBinding>
+                
+ 
+            </Picker>
+
+            <Label Text="Artikelgruppe" />
+            <Picker SelectedItem="{Binding SelectedItemGroup, Mode=TwoWay}" x:Name="itemGroupPicker" Title="Artikelgruppe auswählen">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type model:ItemGroup}"/>
+                </Picker.ItemsSource>
+                <Picker.ItemDisplayBinding>
+                    <Binding Path="Name" />
+                </Picker.ItemDisplayBinding>
+                
+                <Picker.Behaviors>
+                    <service:EventToCommandBehavior Command="{Binding TappedItemGroup}" />
+                </Picker.Behaviors>         
+            </Picker>
+
+            <Label Text="Zone" />
+            <Picker SelectedItem="{Binding SelectedZone, Mode=TwoWay}" Title="Zone auswählen">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Reckzone</x:String>
+                        <x:String>Greifzone</x:String>
+                        <x:String>Bückzone</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+                
+                <Picker.Behaviors>
+                    <service:EventToCommandBehavior Command="{Binding TappedZone}" />
+                </Picker.Behaviors> 
+            </Picker>
+
+            <Label Text="Haltbar bis" />
+            <DatePicker Date="{Binding Expires, Mode=TwoWay}"/>
+
+            <Button Text="Scan" Command="{Binding CancelCommand}" HorizontalOptions="FillAndExpand"></Button>
+        <Button Command="{Binding SaveCommand}" Text="Speichern"/>
+        <Button BackgroundColor="OrangeRed" Command="{Binding DeleteCommand}" Text="Löschen"/>
+    </StackLayout>
+
+</ContentPage>

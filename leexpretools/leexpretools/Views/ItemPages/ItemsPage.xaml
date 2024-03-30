@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="leexpretools.Views.ItemPages.ItemsPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:leexpretools.ViewModels.ItemViewModels"  
+             xmlns:model="clr-namespace:leexpretools.Models"  
+             x:Name="BrowseItemPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Neu" Command="{Binding AddCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+
+
+        <RefreshView x:DataType="local:ItemsViewModel" Command="{Binding LoadCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+            <CollectionView x:Name="ItemGroupsListView"
+                    ItemsSource="{Binding Items}"
+                    SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10" x:DataType="model:Item">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Name}"
+                                       LineBreakMode="NoWrap" 
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="20"
+                                       />
+                                <Label Text=" " HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Margin="20,0,20,0" IsVisible="True" />                 
+                                <Label x:Name="ExpiresLabel" TextColor="{Binding FlagColor}" Text="{Binding Expires, StringFormat='{0:dd.MM.yyyy}'}"
+                                       LineBreakMode="NoWrap" 
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="20"
+                                       VerticalOptions="CenterAndExpand"
+                                />
+                            </StackLayout>
+                            
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding ItemGroup.Name}"
+                                       LineBreakMode="NoWrap" 
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="13" />
+                                <Label Text="   |   "/>
+                                <Label Text="{Binding Area.Name}"
+                                       LineBreakMode="NoWrap" 
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="13" />
+                            </StackLayout>
+
+
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Ean}"
+                                       LineBreakMode="NoWrap" 
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="13" 
+                                       />
+                                <Label Text="   |   "/>
+                                <Label Text="{Binding Price}"
+                                       LineBreakMode="NoWrap" 
+                                       Style="{DynamicResource ListItemTextStyle}" 
+                                       FontSize="13" 
+                                       />
+                            </StackLayout>
+
+
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    NumberOfTapsRequired="1"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:ItemsViewModel}}, Path=Tapped}"		
+                                    CommandParameter="{Binding .}">
+                                </TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+    </StackLayout>
+</ContentPage>

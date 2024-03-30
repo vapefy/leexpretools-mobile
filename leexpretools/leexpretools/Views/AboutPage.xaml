@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="leexpretools.Views.AboutPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:leexpretools.ViewModels"  
+             xmlns:model="clr-namespace:leexpretools.Models"  
+             x:Name="AppAboutPage">
+    <ContentPage.Content>
+
+        <StackLayout Padding="20" Spacing="20" HorizontalOptions="Center">
+            <!-- Header -->
+            <StackLayout HorizontalOptions="Center">
+                <Label Text="Dashboard" FontAttributes="Bold" FontSize="Title" HorizontalOptions="Center" />
+                <Label Text="{Binding LoggedInUser}" FontAttributes="Italic" FontSize="Subtitle" VerticalOptions="Center" />
+
+            </StackLayout>
+
+            <!-- Marketplace -->
+            <StackLayout HorizontalOptions="Center" Spacing="2">
+
+
+                <StackLayout Orientation="Horizontal" Spacing="3" HorizontalOptions="Center">
+                    <Label Text="{Binding MarketPlace}" FontSize="Subtitle" VerticalOptions="Center" />
+                    <Label Text="   |   " FontSize="Subtitle" VerticalOptions="Center" />
+                    <Label Text="{Binding Description}" FontSize="Subtitle" VerticalOptions="Center" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                    <Label Text="{Binding Street}" FontSize="Micro" />
+                    <Label Text="{Binding City}" FontSize="Micro" />
+                    <Label Text="{Binding Country}" FontSize="Micro" />
+                </StackLayout>
+            </StackLayout>
+
+            <!-- Logged-in User -->
+
+            <StackLayout Spacing="0">
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="10">
+                    <Label Text="Gespeicherte Artikel:" TextColor="DarkGreen" FontSize="Subtitle" VerticalOptions="Center" />
+                    <Label Text="{Binding SavedItems}" FontSize="Subtitle" VerticalOptions="Center" />
+                </StackLayout>
+
+                <!-- Yellow Flagged Items -->
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="10">
+                    <Label Text="Artikel mit Yellow Flag:" TextColor="Goldenrod" FontSize="Subtitle" VerticalOptions="Center" />
+                    <Label Text="{Binding YellowFlaggedItems}" FontSize="Subtitle" VerticalOptions="Center" />
+                </StackLayout>
+
+                <!-- Red Flagged Items -->
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="10">
+                    <Label Text="Artikel mit Red Flag:" TextColor="OrangeRed" FontSize="Subtitle" VerticalOptions="Center" />
+                    <Label Text="{Binding RedFlaggedItems}" FontSize="Subtitle" VerticalOptions="Center" />
+                </StackLayout>
+
+                <!-- Expired Items -->
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="10">
+                    <Label Text="Abgelaufene Artikel:" FontSize="Subtitle" VerticalOptions="Center" />
+                    <Label Text="{Binding ExpiredItems}" FontSize="Subtitle" VerticalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+            <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+            <StackLayout x:Name="RebateLayout" VerticalOptions="Center" HorizontalOptions="Center" IsVisible="{Binding HasItems}">
+                <StackLayout Spacing="1">
+                    <Label Text="{Binding Name}" FontSize="24" HorizontalOptions="Center" Margin="0,0,0,0"/>
+                    <Label Text="{Binding Ean}" FontSize="18" HorizontalOptions="Center" Margin="0,0,0,0"/>
+                </StackLayout>
+
+                <!--<Image Source="your_image_file.jpg" HorizontalOptions="Center" Margin="0,0,0,10"/>-->
+
+                
+                <StackLayout Spacing="0">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Zu rabattieren:" FontSize="18" HorizontalOptions="Center" Margin="0,0,0,10"/>
+                        <Label Text="{Binding ToRebate}" FontSize="18" HorizontalOptions="Center" Margin="0,0,0,10"/>
+                    </StackLayout>
+                    <Label Text="neues MHD" FontSize="18" HorizontalOptions="Center" Margin="0,0,0,10"/>
+                    <DatePicker Date="{Binding NewDate}" HorizontalOptions="Center" Margin="0,0,0,10"/>
+                    <StackLayout Orientation="Horizontal" Margin="0,0,0,10" HorizontalOptions="Center">
+                        <CheckBox HorizontalOptions="Start" VerticalOptions="Center"/>
+                        <Label Text="kein MHD vorhanden" VerticalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Command="{Binding BackCommand}" Text="Zurück" HorizontalOptions="CenterAndExpand"/>
+                    <Button Command="{Binding NextCommand}" Text="Weiter" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

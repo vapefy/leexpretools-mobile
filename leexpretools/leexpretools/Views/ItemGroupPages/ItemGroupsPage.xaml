@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="leexpretools.Views.ItemGroupPages.ItemGroupsPage"
+             Title="{Binding Title}"
+             xmlns:local="clr-namespace:leexpretools.ViewModels.ItemGroupViewModels"  
+             xmlns:model="clr-namespace:leexpretools.Models"  
+             x:Name="BrowseItemGroupsPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Neu" Command="{Binding AddCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+
+
+        <RefreshView x:DataType="local:ItemGroupsViewModel" Command="{Binding LoadCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+            <CollectionView x:Name="ItemGroupsListView"
+                    ItemsSource="{Binding ItemGroups}"
+                    SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10" x:DataType="model:ItemGroup">
+                            <Label Text="{Binding Name}" 
+                                LineBreakMode="NoWrap" 
+                                Style="{DynamicResource ListItemTextStyle}" 
+                                FontSize="16" />
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    NumberOfTapsRequired="1"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:ItemGroupsViewModel}}, Path=Tapped}"		
+                                    CommandParameter="{Binding .}">
+                                </TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+    </StackLayout>
+</ContentPage>

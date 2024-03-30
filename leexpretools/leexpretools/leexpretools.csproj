@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <ProduceReferenceAssemblyInOutDir>true</ProduceReferenceAssemblyInOutDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />  
+    <PackageReference Include="ZXing.Net" Version="0.16.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\AreaPages\AreaDetailPage.xaml.cs">
+      <DependentUpon>AreaDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AreaPages\AreasPage.xaml.cs">
+      <DependentUpon>AreasPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AreaPages\NewAreaPage.xaml.cs">
+      <DependentUpon>NewItemGroupPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ItemGroupPages\ItemGroupDetailPage.xaml.cs">
+      <DependentUpon>ItemGroupDetailPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemGroupPages\ItemGroupsPage.xaml.cs">
+      <DependentUpon>ItemGroupsPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemGroupPages\NewItemGroupPage.xaml.cs">
+      <DependentUpon>NewItemPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemGroupPages\ItemGroupDetailPage.xaml.cs">
+      <DependentUpon>AreaDetailPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemGroupPages\ItemGroupsPage.xaml.cs">
+      <DependentUpon>AreasPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemGroupPages\NewAreaPage.xaml.cs">
+      <DependentUpon>NewAreaPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemPages\ItemDetailPage.xaml.cs">
+      <DependentUpon>ItemDetailPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemPages\ItemsPage.xaml.cs">
+      <DependentUpon>ItemsPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemPages\NewItemPage.xaml.cs">
+      <DependentUpon>NewItemGroupPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemPages\ItemDetailPage.xaml.cs">
+      <DependentUpon>ItemGroupDetailPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemPages\ItemsPage.xaml.cs">
+      <DependentUpon>ItemGroupsPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ItemPages\NewItemGroupPage.xaml.cs">
+      <DependentUpon>NewItemGroupPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
