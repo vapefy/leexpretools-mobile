@@ -15,7 +15,7 @@ namespace leexpretools.Services
     public class DataStore {
 
 		private readonly HttpClient _client = new HttpClient();
-		private const string ApiBase = "http://172.104.227.188/api";
+		private const string ApiBase = "https://portal.mhd-manager.de/api";
 		
 	    public async Task<bool> AddItemAsync(Item item) {
 			var dictionary = new Dictionary<string, object> {

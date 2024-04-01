@@ -18,13 +18,8 @@ namespace leexpretools.ViewModels.AreaViewModels {
 		public AreaDetailViewModel() {
 			Title = "Ladenbereich bearbeiten";
 			DeleteAreaCommand = new Command(DeleteAreaButton_OnClicked);
-			SaveAreaCommand = new Command(SaveAreaButton_OnClicked, ValidateSave);
+			SaveAreaCommand = new Command(SaveAreaButton_OnClicked);
 
-		}
-
-		private bool ValidateSave() {
-			return !string.IsNullOrWhiteSpace(_name)
-			       && !string.IsNullOrWhiteSpace(_description);
 		}
 
 		public string Name {
@@ -67,14 +62,11 @@ namespace leexpretools.ViewModels.AreaViewModels {
 		}
 
 		public async void LoadAreaId(int areaId) {
-			try {
 				var area = await DataStore.GetAreaAsync(areaId);
 				Id = area.Id;
 				Name = area.Name;
 				Description = area.Description;
-			} catch(Exception) {
-				Debug.WriteLine("Failed to Load Item");
-			}
+
 		}
 	}
 }

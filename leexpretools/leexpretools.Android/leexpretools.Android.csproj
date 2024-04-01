@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v13.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -55,8 +54,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2662" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
     <PackageReference Include="ZXing.Net">
       <Version>0.16.9</Version>
     </PackageReference>
@@ -97,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\leexpretools\leexpretools.csproj">
-      <Project>{285197FB-335E-4259-B3EA-C682A722F110}</Project>
+      <Project>{86A1EE84-9009-46A0-90A7-7A3768C7E1F2}</Project>
       <Name>leexpretools</Name>
     </ProjectReference>
   </ItemGroup>

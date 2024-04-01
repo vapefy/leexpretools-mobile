@@ -1,16 +1,45 @@
 {
   "version": 2,
-  "dgSpecHash": "mFSiZB1Lubj9zM4OFxCSALj/Z2fVxhCNzDExgLxedo3VNyJdX5AYlzlBIENpoLMVnWpFRWB1IOBfS3COtJ7VrA==",
+  "dgSpecHash": "lLrh//F+wxn4DpeyyjZorzeIjc+YilH7pf4bcYhDmp1GuGfNIuXkXWiEwY+OTr+oRMEZZ+bNKnxOkZDNlrdTAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rick\\workspace\\development\\vs-projects\\leexpretools\\leexpretools\\leexpretools.iOS\\leexpretools.iOS.csproj",
+  "projectFilePath": "C:\\Users\\rick\\Nextcloud\\072_transfer_JURI\\leexpretools\\leexpretools 2\\leexpretools\\leexpretools.iOS\\leexpretools.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rick\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\rick\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\rick\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\rick\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\rick\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\rick\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\rick\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
     "C:\\Users\\rick\\.nuget\\packages\\zxing.net\\0.16.9\\zxing.net.0.16.9.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2662 to 5.0.0.2196. Reference the package directly from the project to select a different version. \r\n leexpretools.iOS -> leexpretools -> Xamarin.Forms (>= 5.0.0.2662) \r\n leexpretools.iOS -> Xamarin.Forms (>= 5.0.0.2196)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-arm64",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.8.1 to 1.7.0. Reference the package directly from the project to select a different version. \r\n leexpretools.iOS -> leexpretools -> Xamarin.Essentials (>= 1.8.1) \r\n leexpretools.iOS -> Xamarin.Essentials (>= 1.7.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-arm64",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

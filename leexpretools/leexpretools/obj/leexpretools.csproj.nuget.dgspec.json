@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rick\\workspace\\development\\vs-projects\\leexpretools\\leexpretools\\leexpretools\\leexpretools.csproj": {}
+    "C:\\Users\\rick\\Nextcloud\\072_transfer_JURI\\leexpretools\\leexpretools 2\\leexpretools\\leexpretools\\leexpretools.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rick\\workspace\\development\\vs-projects\\leexpretools\\leexpretools\\leexpretools\\leexpretools.csproj": {
+    "C:\\Users\\rick\\Nextcloud\\072_transfer_JURI\\leexpretools\\leexpretools 2\\leexpretools\\leexpretools\\leexpretools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rick\\workspace\\development\\vs-projects\\leexpretools\\leexpretools\\leexpretools\\leexpretools.csproj",
+        "projectUniqueName": "C:\\Users\\rick\\Nextcloud\\072_transfer_JURI\\leexpretools\\leexpretools 2\\leexpretools\\leexpretools\\leexpretools.csproj",
         "projectName": "leexpretools",
-        "projectPath": "C:\\Users\\rick\\workspace\\development\\vs-projects\\leexpretools\\leexpretools\\leexpretools\\leexpretools.csproj",
+        "projectPath": "C:\\Users\\rick\\Nextcloud\\072_transfer_JURI\\leexpretools\\leexpretools 2\\leexpretools\\leexpretools\\leexpretools.csproj",
         "packagesPath": "C:\\Users\\rick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rick\\workspace\\development\\vs-projects\\leexpretools\\leexpretools\\leexpretools\\obj\\",
+        "outputPath": "C:\\Users\\rick\\Nextcloud\\072_transfer_JURI\\leexpretools\\leexpretools 2\\leexpretools\\leexpretools\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,15 +53,15 @@
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[13.0.3, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.7.0, )"
+              "version": "[1.8.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2662, )"
             },
             "ZXing.Net": {
               "target": "Package",

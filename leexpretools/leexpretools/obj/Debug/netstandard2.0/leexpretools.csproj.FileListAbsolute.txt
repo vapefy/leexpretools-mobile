@@ -1,26 +1,80 @@
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\bin\Debug\netstandard2.0\leexpretools.deps.json
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\bin\Debug\netstandard2.0\leexpretools.dll
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\bin\Debug\netstandard2.0\ref\leexpretools.dll
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\bin\Debug\netstandard2.0\leexpretools.pdb
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\leexpretools.csproj.AssemblyReference.cache
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\leexpretools.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\leexpretools.AssemblyInfoInputs.cache
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\leexpretools.AssemblyInfo.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\leexpretools.csproj.CoreCompileInputs.cache
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\leexpretools.dll
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\refint\leexpretools.dll
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\leexpretools.pdb
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\AreaPages\AreaDetailPage.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\AreaPages\AreasPage.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\AreaPages\NewAreaPage.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\ItemGroupPages\ItemGroupDetailPage.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\ItemGroupPages\ItemGroupsPage.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\ItemGroupPages\NewItemGroupPage.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\ItemPages\ItemDetailPage.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\ItemPages\ItemsPage.xaml.g.cs
-C:\Users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools\obj\Debug\netstandard2.0\Views\ItemPages\NewItemPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/bin/Debug/netstandard2.0/leexpretools.deps.json
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/bin/Debug/netstandard2.0/leexpretools.dll
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/bin/Debug/netstandard2.0/ref/leexpretools.dll
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/bin/Debug/netstandard2.0/leexpretools.pdb
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.csproj.AssemblyReference.cache
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.AssemblyInfoInputs.cache
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.AssemblyInfo.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.csproj.CoreCompileInputs.cache
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.dll
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/refint/leexpretools.dll
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.pdb
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AreaPages/AreaDetailPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AreaPages/AreasPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AreaPages/NewAreaPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemGroupPages/ItemGroupDetailPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemGroupPages/ItemGroupsPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemGroupPages/NewItemGroupPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemPages/ItemDetailPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemPages/ItemsPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemPages/NewItemPage.xaml.g.cs
+C:/Users/rick/workspace/development/vs-projects/leexpretools/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.sourcelink.json
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/bin/Debug/netstandard2.0/leexpretools.deps.json
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/bin/Debug/netstandard2.0/leexpretools.dll
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/bin/Debug/netstandard2.0/ref/leexpretools.dll
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/bin/Debug/netstandard2.0/leexpretools.pdb
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.csproj.AssemblyReference.cache
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/App.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AreaPages/AreaDetailPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AreaPages/AreasPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AreaPages/NewAreaPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemGroupPages/ItemGroupDetailPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemGroupPages/ItemGroupsPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemGroupPages/NewItemGroupPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemPages/ItemDetailPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemPages/ItemsPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemPages/NewItemPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.AssemblyInfoInputs.cache
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.AssemblyInfo.cs
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.csproj.CoreCompileInputs.cache
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.sourcelink.json
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/XamlC.stamp
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.dll
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/refint/leexpretools.dll
+C:/Users/rick/Nextcloud/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.pdb
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/bin/Debug/netstandard2.0/leexpretools.deps.json
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/bin/Debug/netstandard2.0/leexpretools.dll
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/bin/Debug/netstandard2.0/ref/leexpretools.dll
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/bin/Debug/netstandard2.0/leexpretools.pdb
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.csproj.AssemblyReference.cache
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/AppShell.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AboutPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AreaPages/AreaDetailPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AreaPages/AreasPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/AreaPages/NewAreaPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemGroupPages/ItemGroupDetailPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemGroupPages/ItemGroupsPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemGroupPages/NewItemGroupPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemPages/ItemDetailPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemPages/ItemsPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/ItemPages/NewItemPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.AssemblyInfoInputs.cache
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.AssemblyInfo.cs
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.csproj.CoreCompileInputs.cache
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.dll
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/refint/leexpretools.dll
+/Users/rr/NC/072_transfer_JURI/leexpretools/leexpretools 2/leexpretools/leexpretools/obj/Debug/netstandard2.0/leexpretools.pdb

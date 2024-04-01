@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638467320375020272
+_nugetassetstimestamp=638475831234037968
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\rick\workspace\development\vs-projects\leexpretools\leexpretools\leexpretools.android\leexpretools.android.csproj
+projectfullpath=c:\users\rick\nextcloud\072_transfer_juri\leexpretools\leexpretools 2\leexpretools\leexpretools.android\leexpretools.android.csproj

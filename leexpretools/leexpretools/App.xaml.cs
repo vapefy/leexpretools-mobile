@@ -1,4 +1,4 @@
-﻿using leexpretools.Services;
+using leexpretools.Services;
 using leexpretools.Services;
 using leexpretools.Views;
 using System;
@@ -29,12 +29,13 @@ namespace leexpretools {
 		}
 
 		public async Task<bool> CheckCredentials() {
-			int marketId =  Int32.Parse((await GlobalManager.Instance.LocalDataStore.GetData("market_id")).Replace("#", ""));
+			string marketIdString = await GlobalManager.Instance.LocalDataStore.GetData("market_id");
 			string username = await GlobalManager.Instance.LocalDataStore.GetData("username");
 			string password = await GlobalManager.Instance.LocalDataStore.GetData("password");
 
 			bool isLogedIn = false;
-			if(marketId != null && username != null && password != null) {
+			if(marketIdString != null && username != null && password != null) {
+				int marketId = Int32.Parse(marketIdString.Replace("#", ""));
 				isLoggedIn = (await GlobalManager.Instance.DataStore.CheckLoginCredentials(marketId, username, password)).Equals("login succeed");
 			}
 
